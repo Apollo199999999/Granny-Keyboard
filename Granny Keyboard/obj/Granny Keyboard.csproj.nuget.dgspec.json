@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\fligh\\source\\repos\\Granny Keyboard\\Granny Keyboard\\Granny Keyboard.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\fligh\\source\\repos\\Granny Keyboard\\Granny Keyboard\\Granny Keyboard.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\fligh\\source\\repos\\Granny Keyboard\\Granny Keyboard\\Granny Keyboard.csproj",
+        "projectName": "Granny Keyboard",
+        "projectPath": "C:\\Users\\fligh\\source\\repos\\Granny Keyboard\\Granny Keyboard\\Granny Keyboard.csproj",
+        "packagesPath": "C:\\Users\\fligh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fligh\\source\\repos\\Granny Keyboard\\Granny Keyboard\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\fligh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DotNetBar for Windows Forms": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "InputSimulator": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
