@@ -50,7 +50,6 @@ namespace Granny_Keyboard
                                               // Declare a KeyDown Event
             
             gHook.KeyDown += new KeyEventHandler(gHook_KeyDown);
-            gHook.KeyUp += new KeyEventHandler(gHook_KeyUp);
 
             // Add the keys you want to hook to the HookedKeys list
             foreach (Keys key in Enum.GetValues(typeof(Keys)))
@@ -60,14 +59,9 @@ namespace Granny_Keyboard
             //c.Show();
         }
 
-        // Generate a random number between two numbers  
-        public int RandomNumber(int min, int max)
-        {
-            Random random = new Random();
-            return random.Next(min, max);
-        }
-
         // Handle the KeyDown Event
+        //new random object for random location of Granny Window
+        private static readonly Random _random = new Random();
         public void gHook_KeyDown(object sender, KeyEventArgs e)
         {
            if (e.KeyCode != Keys.Back)
@@ -77,29 +71,25 @@ namespace Granny_Keyboard
 
                 input.Keyboard.TextEntry("Granny");
                
+                //play sound
                 System.IO.Stream str = Properties.Resources.Granny;
                 System.Media.SoundPlayer snd = new System.Media.SoundPlayer(str);
                 snd.Play();
 
-                var width = RandomNumber(200, Screen.PrimaryScreen.Bounds.Width);
-                var height = RandomNumber(200, Screen.PrimaryScreen.Bounds.Height);
-
-                Granny G = new Granny();
-                G.Location = new Point(width, height);
-                G.Show();
+                //show Granny Window at random location
+                var Gfrm = new Granny();
+                Rectangle screen = Screen.PrimaryScreen.WorkingArea;
+                int x = _random.Next(screen.Width - Gfrm.Width);  
+                int y = _random.Next(screen.Height - Gfrm.Height);
+                Gfrm.Location = new Point(x, y);
+                Gfrm.Show();
 
                 gHook.KeyDown += new KeyEventHandler(gHook_KeyDown);
             }
             
         }
 
-        public void gHook_KeyUp(object sender, KeyEventArgs e)
-        {
-            
-        }
-        
-
-
+      
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             gHook.unhook();
