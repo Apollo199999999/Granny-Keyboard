@@ -1,0 +1,15 @@
+C:\Users\fligh\source\repos\Granny-Keyboard\Granny Keyboard\bin\Release\Granny Keyboard.exe.config
+C:\Users\fligh\source\repos\Granny-Keyboard\Granny Keyboard\bin\Release\Granny Keyboard.exe
+C:\Users\fligh\source\repos\Granny-Keyboard\Granny Keyboard\bin\Release\Granny Keyboard.pdb
+C:\Users\fligh\source\repos\Granny-Keyboard\Granny Keyboard\bin\Release\WindowsInput.dll
+C:\Users\fligh\source\repos\Granny-Keyboard\Granny Keyboard\obj\Release\Granny Keyboard.csproj.AssemblyReference.cache
+C:\Users\fligh\source\repos\Granny-Keyboard\Granny Keyboard\obj\Release\Granny Keyboard.csproj.SuggestedBindingRedirects.cache
+C:\Users\fligh\source\repos\Granny-Keyboard\Granny Keyboard\obj\Release\Granny_Keyboard.coordinates.resources
+C:\Users\fligh\source\repos\Granny-Keyboard\Granny Keyboard\obj\Release\Granny_Keyboard.Form1.resources
+C:\Users\fligh\source\repos\Granny-Keyboard\Granny Keyboard\obj\Release\Granny_Keyboard.Granny.resources
+C:\Users\fligh\source\repos\Granny-Keyboard\Granny Keyboard\obj\Release\Granny_Keyboard.Properties.Resources.resources
+C:\Users\fligh\source\repos\Granny-Keyboard\Granny Keyboard\obj\Release\Granny Keyboard.csproj.GenerateResource.cache
+C:\Users\fligh\source\repos\Granny-Keyboard\Granny Keyboard\obj\Release\Granny Keyboard.csproj.CoreCompileInputs.cache
+C:\Users\fligh\source\repos\Granny-Keyboard\Granny Keyboard\obj\Release\Granny Keyboard.csproj.CopyComplete
+C:\Users\fligh\source\repos\Granny-Keyboard\Granny Keyboard\obj\Release\Granny Keyboard.exe
+C:\Users\fligh\source\repos\Granny-Keyboard\Granny Keyboard\obj\Release\Granny Keyboard.pdb

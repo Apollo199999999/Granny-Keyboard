@@ -70,7 +70,7 @@ namespace Granny_Keyboard
                 InputSimulator input = new InputSimulator();
 
                 input.Keyboard.TextEntry("Granny");
-               
+
                 //play sound
                 System.IO.Stream str = Properties.Resources.Granny;
                 System.Media.SoundPlayer snd = new System.Media.SoundPlayer(str);
